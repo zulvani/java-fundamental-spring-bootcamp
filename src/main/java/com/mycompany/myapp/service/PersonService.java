@@ -1,7 +1,11 @@
 package com.mycompany.myapp.service;
 
-public class PersonService {
+import com.mycompany.app.Person;
 
+import java.util.List;
 
+public interface PersonService {
+
+    List<Person> getPersonByFirstName();
 
 }
