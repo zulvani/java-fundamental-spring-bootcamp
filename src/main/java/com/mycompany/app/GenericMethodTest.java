@@ -5,7 +5,7 @@ public class GenericMethodTest {
     public static < N > void printArray( N[] inputArray ) {
         // Display array elements
         for(N element : inputArray) {
-            System.out.printf("%s ", element);
+            System.out.println(element);
         }
         System.out.println();
     }
